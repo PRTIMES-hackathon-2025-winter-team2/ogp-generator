@@ -66,15 +66,15 @@ const handler: Handler = {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>${text}</title>
-    <meta property="og:title" content="${text}" />
+    <title>${decodeURIComponent(text)}</title>
+    <meta property="og:title" content="${decodeURIComponent(text)}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${url.origin}" />
     <meta property="og:image" content="${imageUrl}" />
     <meta property="og:description" content="桜と共に描かれたテキスト画像" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@YourTwitterHandle" />
-    <meta name="twitter:title" content="${text}" />
+    <meta name="twitter:title" content="${decodeURIComponent(text)}" />
     <meta name="twitter:description" content="桜と共に描かれたテキスト画像" />
     <meta name="twitter:image" content="${imageUrl}" />
 </head>
