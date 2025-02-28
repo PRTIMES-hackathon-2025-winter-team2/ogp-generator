@@ -12,8 +12,16 @@
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.6.4",
 		"@cloudflare/workers-types": "^4.20250224.0",
+		"@types/node": "^22.13.5",
+		"@types/react": "^19.0.10",
 		"typescript": "^5.5.2",
 		"vitest": "~2.1.9",
 		"wrangler": "^3.111.0"
+	},
+	"dependencies": {
+		"@resvg/resvg-wasm": "^2.6.2",
+		"react": "^19.0.0",
+		"satori": "^0.12.1",
+		"yoga-wasm-web": "^0.3.3"
 	}
 }
